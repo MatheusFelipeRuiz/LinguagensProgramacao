@@ -1,0 +1,170 @@
+@charset "UTF-8";
+/* Variáveis de linguagens */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Roboto:wght@900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #40434E;
+}
+
+.header {
+  background-color: hsl(0deg, 0%, 0%);
+  text-align: center;
+  color: hsl(0deg, 0%, 100%);
+  font-size: 30px;
+  font-family: "Roboto", "Times New Roman", Times, serif;
+  font-weight: bolder;
+  padding: 1vh 0;
+}
+
+.main {
+  background-color: black;
+  width: 80vw;
+  height: 80vh;
+  margin: auto;
+}
+
+.container.imgLingProg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.contBtnsLing {
+  width: 60vw;
+  padding: 2vh 1vw;
+  margin: 20vh auto;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btnLing, #JS, #PHP, #Java, #C, #C2, #Python {
+  width: 8vw;
+  height: 6vh;
+  padding: 5px;
+  text-align: center;
+  background-color: hsl(0deg, 0%, 100%);
+  color: black;
+  font-family: Verdana, "Geneva", Tahoma, sans-serif;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Classes para os botões das linguagens */
+.btnDesign, .Python, .C2, .C, .Java, .PHP, .JS {
+  width: 8vw;
+  height: 6vh;
+  text-align: center;
+  font-family: Verdana, "Geneva", Tahoma, sans-serif;
+  border-radius: 2px;
+  text-shadow: 1px 1px 1px black;
+  color: white;
+  font-weight: bold;
+}
+
+.JS {
+  background-color: #F2CE1B;
+  border: 2px solid white;
+}
+
+.PHP {
+  background-color: #758EBF;
+  border: 2px solid #3C3B59;
+}
+
+.Java {
+  background-color: #0511F2;
+  border: 2px solid #EA2D2E;
+}
+
+.C {
+  background-color: #6AA5D9;
+  border: 2px solid white;
+}
+
+.C2 {
+  background-color: #5A2073;
+  border: 2px solid white;
+}
+
+.Python {
+  background-color: #F2B138;
+  border: 2px solid white;
+}
+
+/* Classes para o body, de acordo com a linguagem selecionada */
+.bodyJS {
+  background-color: #F2CE1B;
+  transition: all 0.5s ease-in-out;
+}
+
+.bodyPHP {
+  background-color: #758EBF;
+  transition: all 0.5s ease-in-out;
+}
+
+.bodyJAVA {
+  background-color: #0511F2;
+  transition: all 0.5s ease-in-out;
+}
+
+.bodyC {
+  background-color: #6AA5D9;
+  transition: all 0.5s ease-in-out;
+}
+
+.bodyC2 {
+  background-color: #5A2073;
+  transition: all 0.5s ease-in-out;
+}
+
+.bodyPY {
+  background-color: #F2B138;
+  transition: all 0.5s ease-in-out;
+}
+
+.mainJSPHP {
+  border-right: 4px solid white;
+  border-bottom: 4px solid white;
+  border-left: 4px solid white;
+}
+
+.mainC {
+  border-right: 4px solid #03588C;
+  border-bottom: 4px solid #03588C;
+  border-left: 4px solid #03588C;
+}
+
+.mainC2 {
+  border-right: 4px solid #AF8ABF;
+  border-bottom: 4px solid #AF8ABF;
+  border-left: 4px solid #AF8ABF;
+}
+
+.mainJAVA {
+  border-right: 4px solid #EA2D2E;
+  border-bottom: 4px solid #EA2D2E;
+  border-left: 4px solid #EA2D2E;
+}
+
+@media all and (min-width: 300px) and (max-width: 500px) {
+  .main {
+    height: 85vh;
+  }
+  .contBtnsLing {
+    flex-direction: column;
+    margin: 0vh auto;
+  }
+  .btnLing, #JS, #PHP, #Java, #C, #C2, #Python, .btnDesign, .JS, .PHP, .Java, .C, .C2, .Python {
+    width: 54vw;
+  }
+}
+
+/*# sourceMappingURL=lingProg.css.map */
