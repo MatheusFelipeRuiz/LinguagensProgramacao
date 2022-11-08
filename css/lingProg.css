@@ -166,5 +166,23 @@ body {
     width: 54vw;
   }
 }
+@media all and (min-width: 300px) and (max-width: 700px) and (orientation: landscape) {
+  .main {
+    height: 85vh;
+  }
+  .btnLing, #JS, #PHP, #Java, #C, #C2, #Python {
+    width: 20vw;
+    height: 10vh;
+    padding: 5px;
+  }
+  .btnDesign, .JS, .PHP, .Java, .C, .C2, .Python {
+    width: 20vw;
+    height: 10vh;
+    padding: 5px;
+  }
+  .contBtnsLing {
+    margin: 1vh auto;
+  }
+}
 
 /*# sourceMappingURL=lingProg.css.map */
